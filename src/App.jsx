@@ -6,6 +6,7 @@ import Header from './components/header'
 import CustomCursor from './components/CustomCursor'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Menu from './components/Menu'
+import About from './components/About'
 
 function App() {
   const router = createBrowserRouter([
@@ -21,6 +22,10 @@ function App() {
     {
       path: '/Menu',
       element: <Menu />
+    },
+     {
+      path: '/about',
+      element: <About />
     }
   ]);
 

@@ -21,7 +21,7 @@ export default function Header() {
       setShowContent(true);
       setTimeout(() => setAnimate(true), 100);
       setTimeout(() => setHideOverlay(true), 500);
-    }, 500);
+    }, 100);
     return () => clearTimeout(overlayTimeout);
   }, []);
 
