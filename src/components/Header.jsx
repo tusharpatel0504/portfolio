@@ -65,7 +65,7 @@ export default function Header() {
             ${animate ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}
           `}
         >
-          <span className="inline-block bg-black text-pink-200 px-6 py-2 text-xl font-semibold skew-y-[-6deg]">
+          <span className="inline-block bg-black text-pink-200 px-6 py-2 text-xl font-semibold skew-y-[-4deg]">
             India based
           </span>
         </div>
