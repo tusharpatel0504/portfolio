@@ -38,6 +38,7 @@ export default function Header() {
   };
 
   return (
+    
     <div className="w-full h-screen flex flex-col items-center justify-center bg-white relative overflow-hidden">
       <CustomCursor /> {/* Add the custom cursor here */}
       {/* Top-down overlay animation */}
@@ -65,7 +66,7 @@ export default function Header() {
             ${animate ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}
           `}
         >
-          <span className="inline-block bg-black text-pink-200 px-6 py-2 text-xl font-semibold skew-y-[-4deg]">
+          <span className="inline-block bg-black text-pink-200 px-6 py-2 text-xl font-semibold skew-y-[-deg]">
             India based
           </span>
         </div>
