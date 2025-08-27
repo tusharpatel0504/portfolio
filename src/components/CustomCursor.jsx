@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Click from "../assets/click.mp3";
 import Hover from "../assets/hover.mp3";
 export default function CustomCursor() {
   useEffect(() => {
@@ -8,7 +7,7 @@ export default function CustomCursor() {
       "fixed w-4 h-4 rounded-full bg-black pointer-events-none z-[9999] mix-blend-difference transition-transform duration-150 ease-out";
     document.body.appendChild(cursor);
 
-    const clickSound = new Audio(Click);
+    const clickSound = new Audio(hover);
     const hoverSound = new Audio(Hover);
 
     let audioUnlocked = false;
