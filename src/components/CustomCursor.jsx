@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Click from "../assets/Click.mp3";
+import Click from "../assets/click.mp3";
 import Hover from "../assets/hover.mp3";
 export default function CustomCursor() {
   useEffect(() => {
