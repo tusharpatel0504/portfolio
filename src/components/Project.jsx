@@ -42,7 +42,7 @@ const Project = ({
           className="flex items-center gap-1 text-black font-medium hover:underline"
         >
           Read More
-          <img src="src/assets/Arrow.png" className="w-5" alt="arrow" />
+          <img src="/Arrow.png" className="w-5" alt="arrow" />
         </button>
       </div>
 
