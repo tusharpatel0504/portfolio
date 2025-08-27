@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
-import Click from "/click.mp3";
-import Hover from "/hover.mp3";
+
 export default function CustomCursor() {
   useEffect(() => {
     const cursor = document.createElement("div");
@@ -8,14 +7,15 @@ export default function CustomCursor() {
       "fixed w-4 h-4 rounded-full bg-black pointer-events-none z-[9999] mix-blend-difference transition-transform duration-150 ease-out";
     document.body.appendChild(cursor);
 
-    const clickSound = new Audio(Click);
-    const hoverSound = new Audio(Hover);
+    // ✅ Reference files directly from /public
+    const clickSound = new Audio("/click.mp3");
+    const hoverSound = new Audio("/hover.mp3");
 
     let audioUnlocked = false;
 
     const unlockAudio = () => {
       if (!audioUnlocked) {
-       
+        // try playing once to unlock
         clickSound.play().catch(() => {});
         clickSound.pause();
         clickSound.currentTime = 0;
@@ -27,7 +27,6 @@ export default function CustomCursor() {
         audioUnlocked = true;
         console.log("🔊 Audio unlocked");
 
-        
         window.removeEventListener("click", unlockAudio);
         window.removeEventListener("mousemove", unlockAudio);
         window.removeEventListener("keydown", unlockAudio);
