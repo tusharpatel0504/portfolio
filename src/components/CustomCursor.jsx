@@ -8,7 +8,6 @@ export default function CustomCursor() {
       "fixed w-4 h-4 rounded-full bg-black pointer-events-none z-[9999] mix-blend-difference transition-transform duration-150 ease-out";
     document.body.appendChild(cursor);
 
-    // Preload sounds
     const clickSound = new Audio(Click);
     const hoverSound = new Audio(Hover);
 
@@ -16,7 +15,7 @@ export default function CustomCursor() {
 
     const unlockAudio = () => {
       if (!audioUnlocked) {
-        // Try to play/pause each sound to unlock the audio context
+       
         clickSound.play().catch(() => {});
         clickSound.pause();
         clickSound.currentTime = 0;
