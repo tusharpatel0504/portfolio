@@ -47,7 +47,7 @@ export default function Menu() {
                 onClick={() => {
                   if (label === "HOME") navigate("/");
                   if (label === "ABOUT ME") navigate("/about");
-                  if (label === "LATEST WORK") navigate("/latestwork");
+                  if (label === "LATEST WORK") navigate("/Projects");
                   if (label === "CONTACT") navigate("/contact");
                 }}
               >

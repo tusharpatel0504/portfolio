@@ -32,7 +32,7 @@ export const Timeline = ({ data }) => {
                 </p>
             </div>
 
-            <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
+            <div ref={ref} className="relative max-w-7xl -my-32 pb-20">
                 {data.map((item, index) => (
                     <div
                         key={index}

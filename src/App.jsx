@@ -7,6 +7,7 @@ import CustomCursor from './components/CustomCursor'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Menu from './components/Menu'
 import About from './components/About'
+import Projects from './components/Projects'
 
 function App() {
   const router = createBrowserRouter([
@@ -26,6 +27,15 @@ function App() {
      {
       path: '/about',
       element: <About />
+    },
+    {
+      path:'/Projects',
+       element: (
+        <>
+          <CustomCursor />
+          <Projects/>
+        </>
+      )
     }
   ]);
 

@@ -38,7 +38,7 @@ export default function NavBar() {
             Home
           </NavLink>
           <NavLink
-            to="/latestwork"
+            to="/Projects"
             className={({ isActive }) =>
               `text-base transition-all duration-200 hover:text-black ${
                 isActive ? "underline underline-offset-4" : "text-gray-700"

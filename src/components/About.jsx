@@ -7,6 +7,8 @@ import { useEffect, useState } from "react";
 import CustomCursor from './CustomCursor';
 import Experience from "./Experience";
 import TextScroll from "./TextScroll";
+import Skills from "./Skills";
+import { Footer } from "./Footer";
 export default function About() {
   const [showContent, setShowContent] = useState(false);
   const [animate, setAnimate] = useState(false);
@@ -82,9 +84,10 @@ export default function About() {
         </a>
       </div>
     </div>
+    <Skills/>
     <Experience/>
     <TextScroll/>
-    
+    <Footer/>
    </div>
   );
 }
