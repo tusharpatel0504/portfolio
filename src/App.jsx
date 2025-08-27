@@ -8,6 +8,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Menu from './components/Menu'
 import About from './components/About'
 import Projects from './components/Projects'
+import TextEffectFlipper from './components/ui/text-effect-flipper'
+import MyPage from './components/Contact'
 
 function App() {
   const router = createBrowserRouter([
@@ -27,6 +29,9 @@ function App() {
      {
       path: '/about',
       element: <About />
+    }, {
+      path: '/Contact',
+      element: <MyPage/>
     },
     {
       path:'/Projects',

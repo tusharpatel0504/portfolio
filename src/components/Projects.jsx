@@ -22,11 +22,17 @@ const Projects = () => {
   return (
     
    <>
-   <NavBar />
+   
     <section
+    
+    
       onMouseMove={handleMouseMove}
       className="relative w-full py-20 px-6 md:px-12 lg:px-20 bg-white text-neutral-900"
     >
+      <div className="fixed top-0 left-0 w-full z-50">
+        <NavBar />
+      </div>
+      
       {/* Heading */}
      
       <div className="text-center">

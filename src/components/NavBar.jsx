@@ -8,7 +8,7 @@ export default function NavBar() {
   return (
     <>
       
-      <nav className="w-full flex items-center justify-between px-8 py-4 bg-white">
+      <nav className="w-full flex items-center justify-between px-8 py-4 bg-white z-50">
        
         {/* Left Side - Hamburger & Name */}
         <div className="flex items-center space-x-4">
@@ -99,7 +99,7 @@ export default function NavBar() {
             Home
           </NavLink>
           <NavLink
-            to="/latestwork"
+            to="/Projects"
             onClick={() => setIsOpen(false)}
             className={({ isActive }) =>
               `text-base transition-all duration-200 hover:text-black ${

@@ -104,11 +104,12 @@ export const TextScroll = ({ text, default_velocity = 2, className }) => {
         >
             {/* Example dummy text */}
             <ParallaxText baseVelocity={default_velocity} className={className}>
-                This is dummy text scrolling endlessly — your journey, skills, milestones —
-            </ParallaxText>
-            <ParallaxText baseVelocity={-default_velocity} className={className}>
-                Keep scrolling to see all the amazing experiences and projects you’ve done —
-            </ParallaxText>
+  UI/UX Designer · Frontend Developer · Social Media Marketing · SDE Intern —
+</ParallaxText>
+<ParallaxText baseVelocity={-default_velocity} className={className}>
+  Building intuitive designs, scalable apps, and impactful digital experiences —
+</ParallaxText>
+
         </section>
     );
 };

@@ -3,11 +3,16 @@ import { useNavigate } from 'react-router-dom';
 import CustomCursor from './CustomCursor'; // Import the CustomCursor
 
 const roles = [
-  "UI Designer",
-  "Front End Developer",
+  "UI/UX Designer",
+  "Frontend Developer",
   "Backend Developer",
-  "UI/UX Designer"
+  "Full-Stack Developer",
+  "Social Media Marketing Intern",
+  "Design Lead",
+  "Graphic Designer",
+  "Software Development Intern (SDE)"
 ];
+
 
 export default function Header() {
   const [showContent, setShowContent] = useState(false);
