@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import Click from "../../public/click.mp3";
-import Hover from "../../public/hover.mp3";
+import Click from "/click.mp3";
+import Hover from "/hover.mp3";
 export default function CustomCursor() {
   useEffect(() => {
     const cursor = document.createElement("div");
