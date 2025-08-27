@@ -27,7 +27,7 @@ export default function CustomCursor() {
         audioUnlocked = true;
         console.log("🔊 Audio unlocked");
 
-        // Remove unlock listeners (only need them once)
+        
         window.removeEventListener("click", unlockAudio);
         window.removeEventListener("mousemove", unlockAudio);
         window.removeEventListener("keydown", unlockAudio);
