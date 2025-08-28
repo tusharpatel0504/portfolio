@@ -6,34 +6,31 @@ A modern and responsive personal portfolio website to showcase my **projects, sk
 
 ### 🚀 Live Demo
 
-You can view the live project here: **[your-live-portfolio-url.com]([https://your-live-portfolio-url.com](https://tushar-patel.vercel.app/))**
+You can view the live project here: **[tushar-patel.vercel.app](https://tushar-patel.vercel.app/)**
 
 ---
 
 ## 📸 Screenshot
-<img width="1914" height="966" alt="Screenshot 2025-08-28 125813" src="https://github.com/user-attachments/assets/ec3ce2e1-0f1e-4ee8-8410-3cc4ae8b8813" />
 
-![Portfolio Demo]()
+![Portfolio Screenshot](https://github.com/user-attachments/assets/ec3ce2e1-0f1e-4ee8-8410-3cc4ae8b8813)
 
 ---
 
 ## ✨ Features
 
--   **Fully Responsive:** Adapts seamlessly to all devices (📱, 💻, 🖥️).
--   **Smooth Animations:** Built with Framer Motion for an engaging user experience.
--   **Project Showcase:** Detailed section with links to live demos and source code.
--   **Comprehensive Sections:** Includes dedicated parts for About Me, Skills, and Contact.
--   **Live Deployment:** Hosted on Vercel for global accessibility.
+- **Fully Responsive:** Adapts seamlessly to all devices (📱, 💻, 🖥️).
+- **Smooth Animations:** Built with Framer Motion for an engaging user experience.
+- **Project Showcase:** Detailed section with links to live demos and source code.
+- **Comprehensive Sections:** Includes dedicated parts for About Me, Skills, and Contact.
+- **Live Deployment:** Hosted on Vercel for global accessibility.
 
 ---
 
 ## 🛠️ Tech Stack
 
--   **Frontend:** React.js, Tailwind CSS
--   **Animations:** Framer Motion
--   **Deployment:** Vercel
-
----
+- **Frontend:** React.js, Tailwind CSS
+- **Animations:** Framer Motion
+- **Deployment:** Vercel
 
 ---
 
