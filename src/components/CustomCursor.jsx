@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 
 export default function CustomCursor() {
+
+  
   useEffect(() => {
     const cursor = document.createElement("div");
     cursor.className =

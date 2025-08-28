@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Project from "../components/Project";
 import { myProjects } from "../constants";
 import { motion, useMotionValue, useSpring } from "motion/react";
@@ -7,6 +7,20 @@ import { div } from "framer-motion/client";
 import { Footer } from "./Footer";
 
 const Projects = () => {
+  const [showContent, setShowContent] = useState(false);
+    const [animate, setAnimate] = useState(false);
+    const [hideOverlay, setHideOverlay] = useState(false);
+  
+    useEffect(() => {
+      const overlayTimeout = setTimeout(() => {
+        setShowContent(true);
+        setTimeout(() => setAnimate(true), 100);
+        setTimeout(() => setHideOverlay(true), 500);
+      }, 100);
+      return () => clearTimeout(overlayTimeout);
+    }, []);
+  
+    
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   const springX = useSpring(x, { damping: 20, stiffness: 150 });
@@ -29,6 +43,18 @@ const Projects = () => {
       onMouseMove={handleMouseMove}
       className="relative w-full py-20 px-6 md:px-12 lg:px-20 bg-white text-neutral-900"
     >
+       {!hideOverlay && (
+        <div
+          className={`absolute inset-0 z-50 bg-black transition-all duration-700 ${
+            showContent ? "opacity-0" : "opacity-100"
+          }`}
+          style={{
+            transform: showContent ? "translateY(-100%)" : "translateY(0)",
+            transition:
+              "transform 0.7s cubic-bezier(0.4,0,0.2,1), opacity 0.4s ease 0.7s",
+          }}
+        />
+      )}
       <div className="fixed top-0 left-0 w-full z-50">
         <NavBar />
       </div>
