@@ -25,8 +25,8 @@ export const Timeline = ({ data }) => {
     return (
         <div className="w-full bg-white font-sans md:px-10" ref={containerRef}>
             <div className="max-w-7xl mx-auto py-10 px-4 md:px-8 lg:px-10">
-                <h2 className="text-5xl tracking-wider flex justify-center align-middle text-center" style={{ fontFamily: "'Anton', sans-serif" }}>My Experiences</h2>
-                <p className="text-neutral-700 mt-4 flex justify-center align-middle text-center">
+                <h2 className="-mt-12 text-5xl tracking-wider flex justify-center align-middle text-center" style={{ fontFamily: "'Anton', sans-serif" }}>My Experiences</h2>
+                <p className="text-neutral-700 mt-4 flex justify-center align-middle text-center mb-20 lg:mb-6">
 
                     Over the years, I’ve taken on diverse roles and projects that have helped me grow both personally and professionally.<br /> This timeline highlights the pivotal moments in my journey, showcasing the skills, achievements, and learnings that define my career path
                 </p>

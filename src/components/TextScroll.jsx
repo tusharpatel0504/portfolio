@@ -99,7 +99,7 @@ export const TextScroll = ({ text, default_velocity = 2, className }) => {
 
     return (
         <section
-            className="mt-20 relative w-full text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl"
+            className="mt-4 lg:mt-14 relative w-full text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl"
             style={{ fontFamily: "'Anton', sans-serif" }}
         >
             {/* Example dummy text */}
