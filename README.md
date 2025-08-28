@@ -49,7 +49,7 @@ Make sure you have the following installed on your machine:
 1.  **Clone the Repository**
     Open your terminal or command prompt and run the following command to copy the project to your local machine:
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](h[ttps://github.com/your-username/your-repo-name.git](https://github.com/tusharpatel0504/portfolio))
+    git clone https://github.com/tusharpatel0504
     ```
 
 2.  **Navigate to the Project Directory**
