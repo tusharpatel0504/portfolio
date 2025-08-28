@@ -17,9 +17,9 @@ This portfolio highlights my journey as a **Graphic Designer | Frontend Develope
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js / Next.js / Tailwind CSS  
+- **Frontend:** React.js , Tailwind CSS  
 - **Animations:** Framer Motion  
-- **Deployment:** Vercel / Netlify / GitHub Pages  
+- **Deployment:** Vercel 
 
 ---
 
