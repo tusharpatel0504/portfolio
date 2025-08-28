@@ -34,6 +34,45 @@ You can view the live project here: **[your-live-portfolio-url.com](https://your
 
 ---
 
+---
+
+## 🚀 How to Clone and Run This Project
+
+Follow these instructions to set up a copy of the project on your local machine for development and testing purposes.
+
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+-   [Git](https://git-scm.com/)
+-   [Node.js](https://nodejs.org/) (which includes npm)
+
+### Installation Steps
+
+1.  **Clone the Repository**
+    Open your terminal or command prompt and run the following command to copy the project to your local machine:
+    ```bash
+    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    ```
+
+2.  **Navigate to the Project Directory**
+    Change your current directory to the folder you just cloned:
+    ```bash
+    cd your-repo-name
+    ```
+
+3.  **Install Dependencies**
+    Run the following command to install all the necessary packages and libraries required for the project:
+    ```bash
+    npm install
+    ```
+
+4.  **Run the Development Server**
+    Finally, start the local server to see the project in action:
+    ```bash
+    npm run dev
+    ```
+    Once it's running, open your web browser and go to `http://localhost:5173` (or the URL shown in your terminal) to view the website.
+
 ## 📂 Project Structure
 
 ```bash
