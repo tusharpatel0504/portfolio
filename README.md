@@ -6,13 +6,14 @@ A modern and responsive personal portfolio website to showcase my **projects, sk
 
 ### 🚀 Live Demo
 
-You can view the live project here: **[your-live-portfolio-url.com](https://your-live-portfolio-url.com)**
+You can view the live project here: **[your-live-portfolio-url.com]([https://your-live-portfolio-url.com](https://tushar-patel.vercel.app/))**
 
 ---
 
 ## 📸 Screenshot
+<img width="1914" height="966" alt="Screenshot 2025-08-28 125813" src="https://github.com/user-attachments/assets/ec3ce2e1-0f1e-4ee8-8410-3cc4ae8b8813" />
 
-![Portfolio Demo](https://github.com/user-attachments/assets/914529f8-1468-44bb-9574-7db25e420bcf)
+![Portfolio Demo]()
 
 ---
 
@@ -51,13 +52,13 @@ Make sure you have the following installed on your machine:
 1.  **Clone the Repository**
     Open your terminal or command prompt and run the following command to copy the project to your local machine:
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    git clone [https://github.com/your-username/your-repo-name.git](h[ttps://github.com/your-username/your-repo-name.git](https://github.com/tusharpatel0504/portfolio))
     ```
 
 2.  **Navigate to the Project Directory**
     Change your current directory to the folder you just cloned:
     ```bash
-    cd your-repo-name
+    cd portfolio
     ```
 
 3.  **Install Dependencies**
