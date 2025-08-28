@@ -4,6 +4,11 @@ A modern and responsive personal portfolio website to showcase my **projects, sk
 This portfolio highlights my journey as a **Graphic Designer | Frontend Developer | UI/UX Enthusiast** and serves as a central hub for my work.
 
 ---
+## 📸 Demo
+
+![image](https://github.com/user-attachments/assets/914529f8-1468-44bb-9574-7db25e420bcf)
+
+---
 
 ## 🚀 Features
 
