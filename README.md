@@ -35,3 +35,12 @@ portfolio/
 │   └── styles/       # Global styles
 ├── package.json
 └── README.md
+
+## ⚡ Getting Started
+
+Follow these steps to run the project locally:
+
+1. **Clone the repo**
+```bash
+git clone https://github.com/yourusername/portfolio.git
+
