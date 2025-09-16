@@ -1,4 +1,26 @@
 export const myProjects = [
+    {
+    id: 2,
+    title: "OPCODE Website",
+    description:
+      "Open-source platform, a vibrant hub for collaborative development and innovation.",
+    subDescription: [
+      "Welcome to our open-source platform, a vibrant hub for collaborative development and innovation. Here, passionate individuals from diverse backgrounds converge to share, contribute, and enhance projects that drive positive change. Explore our repository of code, tools, and resources, and join us in shaping the future of technology together!",
+    ],
+    href: "https://opcode.gymkhana.iiitbh.ac.in/",
+    logo: "",
+    image: "/OPCODE.png",
+    tags: [
+      { id: 1, name: "ReactJS", path: "/React.png" },
+      { id: 2, name: "NodeJS", path: "/Node.png" },
+      { id: 3, name: "Firebase", path: "/FireBase.png" },
+      { id: 4, name: "TailwindCSS", path: "/Tailwind.png" },
+      { id: 5, name: "JavaScript", path: "/JavaS.png" },
+      { id: 6, name: "HTML", path: "/HTML.png" },
+      { id: 7, name: "CSS", path: "/CSS.png" },
+      { id: 8, name: "Figma", path: "/Figma.png" },
+    ],
+  },
   {
     id: 1,
     title: "Travel Website",
@@ -163,6 +185,7 @@ export const experiences = [
       "Automated marketing content scheduling using third-party APIs and reduced manual workload.",
     ],
   },
+  
   {
     title: "UI/UX Designer and Frontend Developer",
     job: "Tip2Trip",

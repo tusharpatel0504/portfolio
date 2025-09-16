@@ -10,6 +10,16 @@ const Projects = () => {
   const [showContent, setShowContent] = useState(false);
     const [animate, setAnimate] = useState(false);
     const [hideOverlay, setHideOverlay] = useState(false);
+    const [isMobile, setIsMobile] = useState(false);
+  
+    useEffect(() => {
+      const checkIsMobile = () => {
+        setIsMobile(window.innerWidth < 768);
+      };
+      checkIsMobile();
+      window.addEventListener("resize", checkIsMobile);
+      return () => window.removeEventListener("resize", checkIsMobile);
+    }, []);
   
     useEffect(() => {
       const overlayTimeout = setTimeout(() => {
@@ -40,7 +50,7 @@ const Projects = () => {
     <section
     
     
-      onMouseMove={handleMouseMove}
+      onMouseMove={!isMobile ? handleMouseMove : null}
       className="relative w-full py-20 px-6 md:px-12 lg:px-20 bg-white text-neutral-900"
     >
        {!hideOverlay && (
@@ -81,7 +91,7 @@ const Projects = () => {
       </div>
 
       {/* Floating Preview */}
-      {preview && (
+      {!isMobile && preview && (
         <motion.img
           className="fixed top-0 left-0 z-50 object-cover h-60 w-auto rounded-xl shadow-xl border border-neutral-200 pointer-events-none"
           src={preview}
