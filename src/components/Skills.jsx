@@ -3,11 +3,13 @@ import React from "react";
 const skills = [
 
   { title: "UI/UX", desc: "Designing user interfaces and experiences" },
-  { title: "Html", desc: "Web structure language" },
-  { title: "Css", desc: "Designs web appearance" },
-  { title: "Javascript", desc: "Makes web interactive" },
+  { title: "HTML", desc: "Web structure language" },
+  { title: "CSS", desc: "Designs web appearance" },
+  { title: "Javascript", desc: "Makes web interactive" },  
   { title: "Typescript", desc: "JavaScript with types" },
   { title: "React.js", desc: "UI component library" },
+  { title: "Redux Toolkit", desc: "State management" },
+  { title: "MySQL", desc: "Relational database management" },
   { title: "MongoDB", desc: "NoSQL document database" },
   { title: "Node.js", desc: "JavaScript server runtime" },
   { title: "C", desc: "Efficient system programming" },
@@ -16,11 +18,23 @@ const skills = [
   { title: "DSA", desc: "Data Structures & Algorithms" },
   { title: "RESTful APIs", desc: "Web service design" },
   { title: "Bootstrap", desc: "CSS framework" },
-  { title: "Tailwind CSS", desc: "Utility-first CSS framework" },
-  { title: "Git", desc: "Version control tool" },
+  { title: "Tailwind CSS", desc: "Utility-first CSS framework" },  
+  { title: "Git", desc: "Version control tool" },  
   { title: "Figma", desc: "Collaborative design tool" },
+  { title: "Postman", desc: "API testing tool" },
   { title: "Firebase", desc: "Authentication and Authorization" },
-  { title: "Express.js", desc: "Defining routes" }
+  { title: "Express.js", desc: "Defining routes" },
+  { title: "Socket.io", desc: "Real-time communication" }
+
+
+
+  
+
+
+  
+
+
+
 ];
 
 

@@ -17,7 +17,7 @@ export const Footer = () => {
         <div className="space-y-4 text-gray-300">
           <div className="flex items-center gap-3">
             <FaEnvelope className="text-lg" />
-            <p>tushar.230101145@iiibh.ac.in</p>
+            <a href="mailto:working.tusharpatel@gmail.com">working.tusharpatel@gmail.com</a>
           </div>
         </div>
       </div>

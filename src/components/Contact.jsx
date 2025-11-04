@@ -42,7 +42,7 @@ function MyPage() {
       <FlipLink href="https://github.com/tusharpatel0504" icon={<GithubIcon />}>
         Github
       </FlipLink>
-      <FlipLink href="mailto:tushar.230101145@iiitbh.ac.in" icon={<GmailIcon />}>
+      <FlipLink href="mailto:working.tusharpatel@gmail.com" icon={<GmailIcon />}>
         Gmail
       </FlipLink>
     

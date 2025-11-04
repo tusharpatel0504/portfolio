@@ -1,5 +1,31 @@
 export const myProjects = [
-    {
+  {
+    id: 1,
+    title: "Enyugma Website",
+    description:
+      "Official techno-cultural fest website of IIIT Bhagalpur, featuring events, registrations, results, and live updates.",
+    subDescription: [
+      "Developed the official website for Enyugma — IIIT Bhagalpur’s annual techno-cultural fest.",
+      "Built the frontend using ReactJS and TailwindCSS for a visually engaging and responsive interface.",
+      "Integrated Firebase for event registration, live leaderboards, and real-time updates.",
+      "Handled backend APIs using Node.js & Express for event management and data processing.",
+      "Collaborated closely with the organizing team to ensure smooth deployment and scalability during the fest.",
+    ],
+    href: "https://enyugma.iiitbh.ac.in/",
+    logo: "",
+    image: "/enyugma.png",
+    tags: [
+      { id: 1, name: "ReactJS", path: "/React.png" },
+      { id: 2, name: "NodeJS", path: "/Node.png" },
+      { id: 3, name: "Firebase", path: "/FireBase.png" },
+      { id: 4, name: "TailwindCSS", path: "/Tailwind.png" },
+      { id: 5, name: "JavaScript", path: "/JavaS.png" },
+      { id: 6, name: "HTML", path: "/HTML.png" },
+      { id: 7, name: "CSS", path: "/CSS.png" },
+      { id: 8, name: "Figma", path: "/Figma.png" },
+    ],
+  },
+  {
     id: 2,
     title: "OPCODE Website",
     description:
@@ -22,7 +48,33 @@ export const myProjects = [
     ],
   },
   {
-    id: 1,
+    id: 3,
+    title: "E-Summit Website",
+    description:
+      "Official website for IIIT Bhubaneswar’s annual entrepreneurship summit — showcasing events, registrations, and guests.",
+    subDescription: [
+      "Developed the complete frontend using ReactJS and TailwindCSS for a dynamic, responsive experience.",
+      "Integrated Firebase for event registrations and real-time data updates.",
+      "Built an admin dashboard for managing participants, sessions, and sponsors.",
+      "Optimized SEO and performance for large visitor traffic during the summit.",
+      "Collaborated with the E-Cell team to ensure brand consistency and smooth event flow.",
+    ],
+    href: "https://esummit.iiitbh.ac.in/",
+    logo: "",
+    image: "/esummit.png",
+    tags: [
+      { id: 1, name: "ReactJS", path: "/React.png" },
+      { id: 2, name: "NodeJS", path: "/Node.png" },
+      { id: 3, name: "Firebase", path: "/FireBase.png" },
+      { id: 4, name: "TailwindCSS", path: "/Tailwind.png" },
+      { id: 5, name: "JavaScript", path: "/JavaS.png" },
+      { id: 6, name: "HTML", path: "/HTML.png" },
+      { id: 7, name: "CSS", path: "/CSS.png" },
+      { id: 8, name: "Figma", path: "/Figma.png" },
+    ],
+  },
+  {
+    id: 4,
     title: "Travel Website",
     description:
       "An AI-powered travel planning platform that helps users discover destinations, connect with travel buddies, and manage bookings seamlessly.",
@@ -48,7 +100,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 2,
+    id: 5,
     title: "Love Babbar Code Help",
     description:
       "A coding help and discussion platform designed for learners and developers.",
@@ -73,7 +125,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 3,
+    id: 6,
     title: "Gym App",
     description:
       "A fitness tracking web app to monitor workouts, progress, and nutrition plans.",
@@ -99,7 +151,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 4,
+    id: 7,
     title: "Restaurant Website",
     description:
       "A modern restaurant website with online ordering, reservations, and menu management.",
@@ -124,55 +176,25 @@ export const myProjects = [
       { id: 8, name: "Figma", path: "/Figma.png" },
     ],
   },
-  {
-    id: 5,
-    title: "Online Learning Platform",
-    description:
-      "An e-learning app where students can enroll in courses, watch videos, and attempt quizzes.",
-    subDescription: [
-      "Created Figma prototypes for course pages, video player layouts, and responsive dashboards.",
-      "Developed using ReactJS and TailwindCSS for a clean, interactive UI.",
-      "Handled backend APIs with Node.js & Express for course and quiz logic.",
-      "Integrated Firebase for authentication, course progress tracking, and notifications.",
-      "Added video playback support and quiz scoring with real-time updates.",
-    ],
-    href: "https://www.figma.com/proto/Z73hOmp0sV6u83pdyZrYDo/edu-draft?node-id=30-79&t=1kDffwOl7Via6Gq2-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2",
-    logo: "",
-    image: "/DSH.png",
-    tags: [
-      { id: 1, name: "ReactJS", path: "/React.png" },
-      { id: 2, name: "NodeJS", path: "/Node.png" },
-      { id: 3, name: "Firebase", path: "/FireBase.png" },
-      { id: 4, name: "TailwindCSS", path: "/Tailwind.png" },
-      { id: 5, name: "JavaScript", path: "/JavaS.png" },
-      { id: 6, name: "HTML", path: "/HTML.png" },
-      { id: 7, name: "CSS", path: "/CSS.png" },
-      { id: 8, name: "Figma", path: "/Figma.png" },
-    ],
-  },
+  
 ];
 
 
 
-export const mySocials = [
-  {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
-  },
-  {
-    name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
-    icon: "/assets/socials/linkedIn.svg",
-  },
-  {
-    name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
-  },
-];
 
 export const experiences = [
+  {
+    title: "UI/UX Lead & Frontend Developer",
+    job: "DevC – IIIT Bhagalpur Development Club",
+    date: "Aug 2024 – Present",
+    contents: [
+      "Leading the design and frontend development of IIIT Bhagalpur’s in-house projects and websites.",
+      "Created and maintained the design system for DevC projects using Figma and TailwindCSS.",
+      "Collaborating with developers to ensure seamless UI implementation and consistent branding.",
+      "Developed reusable React.js components, improving scalability and maintainability across projects.",
+      "Mentored junior members in UI/UX principles, frontend workflows, and modern design tools.",
+    ],
+  },
   {
     title: "UI/UX & Social Media Marketing Intern",
     job: "Wisonlect",
@@ -185,7 +207,6 @@ export const experiences = [
       "Automated marketing content scheduling using third-party APIs and reduced manual workload.",
     ],
   },
-  
   {
     title: "UI/UX Designer and Frontend Developer",
     job: "Tip2Trip",
@@ -208,17 +229,6 @@ export const experiences = [
       "Implemented social media automation workflows with Buffer and Zapier, reducing manual effort.",
       "Analyzed campaign analytics (Meta Business Suite, LinkedIn Insights) to optimize engagement rates.",
       "Collaborated with developers to integrate branding assets into institute’s web applications.",
-    ],
-  },
-  {
-    title: "Member of Graphic Design Team",
-    job: "Indian Institute of Information Technology Bhagalpur",
-    date: "Aug 2023 – Feb 2024",
-    contents: [
-      "Designed high-quality digital creatives, posters, and event banners using Adobe Suite.",
-      "Worked closely with the web team to deliver consistent design language across platforms.",
-      "Improved content turnaround time by introducing design system templates.",
-      "Contributed to UI mockups for internal student portals and event registration systems.",
     ],
   },
   {
