@@ -186,7 +186,7 @@ export const experiences = [
   {
     title: "UI/UX Lead & Frontend Developer",
     job: "DevC – IIIT Bhagalpur Development Club",
-    date: "Aug 2024 – Present",
+    date: "Sep 2025 – Present",
     contents: [
       "Leading the design and frontend development of IIIT Bhagalpur’s in-house projects and websites.",
       "Created and maintained the design system for DevC projects using Figma and TailwindCSS.",
@@ -198,7 +198,7 @@ export const experiences = [
   {
     title: "UI/UX & Social Media Marketing Intern",
     job: "Wisonlect",
-    date: "Jul 2025 – Present",
+    date: "Jul 2025 – Sep 2025",
     contents: [
       "Developed responsive UI components using React.js and TailwindCSS for improved scalability.",
       "Conducted usability testing and implemented feedback loops to refine product workflows.",
