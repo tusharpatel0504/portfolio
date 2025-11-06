@@ -50,7 +50,8 @@ const Projects = () => {
     <section
     
     
-      onMouseMove={!isMobile ? handleMouseMove : null}
+      onMouseMove={!isMobile ?
+         handleMouseMove : null}
       className="relative w-full py-20 px-6 md:px-12 lg:px-20 bg-white text-neutral-900"
     >
        {!hideOverlay && (
@@ -72,7 +73,7 @@ const Projects = () => {
       {/* Heading */}
      
       <div className="text-center">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mt-6">
           My Projects 
         </h2>
         <p className="mt-4 text-neutral-600 max-w-2xl mx-auto text-base md:text-lg">

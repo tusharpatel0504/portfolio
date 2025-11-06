@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import CustomCursor from './CustomCursor'; // Import the CustomCursor
+import CustomCursor from './CustomCursor';
+// Background image removed
 
 const roles = [
   "UI/UX Designer",
@@ -42,8 +43,12 @@ export default function Header() {
   };
 
   return (
-    <div className="w-full h-screen flex flex-col items-center justify-center bg-white relative overflow-hidden">
-      <CustomCursor /> {/* Add the custom cursor here */}
+    <div
+      className="w-full h-screen flex flex-col items-center justify-center relative overflow-hidden"
+    >
+      <CustomCursor />
+
+  {/* Background overlay removed */}
 
       {/* Top-down overlay animation */}
       {!hideOverlay && (
@@ -57,16 +62,16 @@ export default function Header() {
       )}
 
       {/* Main content */}
-      <div className={`${showContent ? "opacity-100" : "opacity-0"} transition-opacity duration-300 w-full h-full flex flex-col items-center justify-center`}>
+      <div className={`${showContent ? "opacity-100" : "opacity-0"} transition-opacity duration-300 w-full h-full flex flex-col items-center justify-center z-10`}>
         
         {/* Name */}
         <h1
-          className={`font-bold text-black text-center leading-none transition-all duration-700
+          className={`font-bold text-white text-center leading-none transition-all duration-700
             ${animate ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}
             text-[8vw] sm:text-[6vw] lg:text-[5vw]
           `}
         >
-          Tushar Patel
+          <span className="text-black">Tushar Patel</span>
         </h1>
 
         {/* Tagline */}
@@ -75,9 +80,9 @@ export default function Header() {
             ${animate ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}
           `}
         >
-          <span className="inline-block bg-black text-pink-200 px-6 py-2 font-semibold
+          <span className="inline-block bg-black/80 text-pink-200 px-6 py-2 font-semibold
             text-[4vw] sm:text-[2vw] lg:text-[1.5vw]
-            text-center leading-tight
+            text-center leading-tight rounded-full
           ">
             India based
           </span>
@@ -102,10 +107,10 @@ export default function Header() {
         {/* Explore button */}
         <button
           onClick={handleExploreClick}
-          className={`mt-8 border-2 border-black rounded-full flex items-center justify-center font-medium hover:bg-black hover:text-white transition-colors duration-300 group
-            transition-all duration-200 group-hover:w-40 group-hover:h-40
+          className={`mt-8 border-2 border-black rounded-full flex items-center justify-center font-medium hover:bg-black hover:text-white transition-all duration-300 group
+            group-hover:w-40 group-hover:h-40
             ${animate ? "opacity-100 scale-100" : "opacity-0 scale-75"}
-            w-28 h-28 sm:w-32 sm:h-32 lg:w-36 lg:h-36 text-[4vw] sm:text-lg
+            w-28 h-28 sm:w-32 sm:h-32 lg:w-36 lg:h-36 text-[4vw] sm:text-lg text-black
           `}
         >
           <span className="transition-all duration-200 group-hover:font-bold group-hover:scale-110">
@@ -119,21 +124,21 @@ export default function Header() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
-          className="absolute bottom-8 left-8 z-10"
+          className="absolute bottom-8 left-8 z-10 bg-black rounded"
         >
           <svg width="20" height="20" viewBox="0 0 32 32" fill="none">
-            <rect width="32" height="32" rx="6" fill="#000" />
+            <rect width="32" height="32" rx="6" fill="none" stroke="#000" strokeWidth="1" />
             <path
               d="M10.666 13.333h2.667v8h-2.667v-8zm1.333-4a1.333 1.333 0 110 2.667 1.333 1.333 0 010-2.667zm3.334 4h2.56v1.093h.037c.356-.675 1.226-1.387 2.523-1.387 2.7 0 3.2 1.776 3.2 4.084v4.21h-2.667v-3.733c0-.89-.016-2.037-1.241-2.037-1.242 0-1.432.97-1.432 1.97v3.8h-2.667v-8z"
-              fill="#fff"
+              fill="#ffff"
             />
           </svg>
         </a>
       </div>
 
       {/* Footer */}
-      <div className="absolute bottom-8 right-8 text-xs text-gray-500 z-10">
-        ©2025 Tushar Patel. All Right Reserved
+      <div className="absolute bottom-8 right-8 text-xs text-gray-600 z-10">
+        ©2025 Tushar Patel. All Rights Reserved
       </div>
     </div>
   );
