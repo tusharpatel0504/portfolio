@@ -40,7 +40,7 @@ export default function About() {
         />
       )}
 
-      <div className="min-h-screen bg-white flex flex-col items-center">
+      <div className="min-h-screen bg-white flex flex-col items-center mt-14">
         {/* Navbar */}
         <NavBar />
 
